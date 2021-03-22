@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a327580-e8d4-4f91-a7d4-cc30403264e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/services/PropertyInjectedGreetingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/services/SetterInjectedGreetingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/controllers/I18nController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/services/I18mEnglishgreetingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/services/I18nSpanishGreetingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/controllers/ConstructorInjectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/controllers/ConstructorInjectedController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/controllers/PropertyInjectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/controllers/PropertyInjectedController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/controllers/SetterInjectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/controllers/SetterInjectedController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/services/GreetingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/services/ConstructorGreetingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/sfdependencyinjection/controllers/ConstructorInjectedControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/springframework/sfdependencyinjection/controllers/ConstructorInjectedControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/sfdependencyinjection/controllers/PropertyInjectedControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/springframework/sfdependencyinjection/controllers/PropertyInjectedControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/sfdependencyinjection/controllers/SetterInjectedControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/springframework/sfdependencyinjection/controllers/SetterInjectedControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/SfDependencyInjectionApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/SfDependencyInjectionApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,30 +26,58 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/SfDependencyInjectionApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="30" column="71" lean-forward="true" selection-start-line="30" selection-start-column="71" selection-end-line="30" selection-end-column="71" />
+            <state relative-caret-position="150">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/services/GreetingService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/controllers/I18nController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/services/I18mEnglishgreetingService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/services/I18nSpanishGreetingService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="32" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="32" />
+              <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+              <folding>
+                <element signature="e#176#177#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/services/ConstructorGreetingService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="39" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="39" />
-              <folding>
-                <element signature="e#170#171#0" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -86,20 +109,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/controllers/PropertyInjectedController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#298#299#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/controllers/SetterInjectedController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -116,37 +125,29 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/guru/springframework/sfdependencyinjection/controllers/SetterInjectedControllerTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/services/PrimaryGreetingService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-              <folding>
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#624#625#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/controllers/ConstructorInjectedController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/guru/springframework/sfdependencyinjection/controllers/ConstructorInjectedControllerTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/controllers/MyController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="240">
+              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -174,13 +175,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/controllers/MyController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/services/GreetingService.java" />
         <option value="$PROJECT_DIR$/src/test/java/guru/springframework/sfdependencyinjection/controllers/PropertyInjectedControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/guru/springframework/sfdependencyinjection/controllers/SetterInjectedControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/guru/springframework/sfdependencyinjection/controllers/ConstructorInjectedControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/SfDependencyInjectionApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/services/GreetingServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/services/ConstructorGreetingService.java" />
         <option value="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/services/PropertyInjectedGreetingService.java" />
@@ -188,6 +186,15 @@
         <option value="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/controllers/PropertyInjectedController.java" />
         <option value="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/services/SetterInjectedGreetingService.java" />
         <option value="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/controllers/SetterInjectedController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/services/PrimaryGreetingService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/controllers/MyController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/services/I18SpahishGreetingService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/services/I18nSpahishGreetingService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/controllers/I18nController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/SfDependencyInjectionApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/services/I18mEnglishgreetingService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/services/I18nSpanishGreetingService.java" />
       </list>
     </option>
   </component>
@@ -447,7 +454,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616417671946</updated>
-      <workItem from="1616417673193" duration="3234000" />
+      <workItem from="1616417673193" duration="4268000" />
     </task>
     <task id="LOCAL-00001" summary="initializing sf-di">
       <created>1616417953535</created>
@@ -470,7 +477,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616420712889</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="qualifiers added">
+      <created>1616421215452</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616421215452</updated>
+    </task>
+    <task id="LOCAL-00005" summary="primary bean">
+      <created>1616421577713</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616421577713</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -491,7 +512,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3234000" />
+    <option name="totallyTimeSpent" value="4268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -502,7 +523,7 @@
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
@@ -513,7 +534,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32903865" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28613862" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2841584" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39940536" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -536,7 +557,9 @@
     <MESSAGE value="initializing sf-di" />
     <MESSAGE value="dependency injection w/o Spring" />
     <MESSAGE value="dependency injection with Spring" />
-    <option name="LAST_COMMIT_MESSAGE" value="dependency injection with Spring" />
+    <MESSAGE value="qualifiers added" />
+    <MESSAGE value="primary bean" />
+    <option name="LAST_COMMIT_MESSAGE" value="primary bean" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -550,20 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/controllers/MyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -601,13 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="32" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/SfDependencyInjectionApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="30" column="71" lean-forward="true" selection-start-line="30" selection-start-column="71" selection-end-line="30" selection-end-column="71" />
         </state>
       </provider>
     </entry>
@@ -678,6 +680,79 @@
             <element signature="e#319#320#0" expanded="true" />
             <element signature="e#390#391#0" expanded="true" />
             <element signature="e#444#445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/services/PrimaryGreetingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/controllers/MyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/controllers/I18nController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/SfDependencyInjectionApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/services/I18nSpanishGreetingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+          <folding>
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/sfdependencyinjection/services/I18mEnglishgreetingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
           </folding>
         </state>
       </provider>
