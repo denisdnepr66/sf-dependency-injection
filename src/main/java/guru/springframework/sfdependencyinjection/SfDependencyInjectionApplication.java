@@ -11,6 +11,9 @@ public class SfDependencyInjectionApplication {
 	public static void main(String[] args) {
 		ApplicationContext ctx = SpringApplication.run(SfDependencyInjectionApplication.class, args);
 
+		PetController petController = ctx.getBean("petController", PetController.class);
+		System.out.println(petController.whichPetIsTheBest());
+
 		I18nController i18nController = (I18nController) ctx.getBean("i18nController");
 		System.out.println(i18nController.sayGreeting());
 
