@@ -1,5 +1,7 @@
 package guru.springframework.sfdependencyinjection.config;
 
+import com.springframework.pets.PetService;
+import com.springframework.pets.PetServiceFactory;
 import guru.springframework.sfdependencyinjection.repositories.EnglishGreetingRepository;
 import guru.springframework.sfdependencyinjection.repositories.EnglishGreetingRepositoryImpl;
 import guru.springframework.sfdependencyinjection.services.*;
@@ -10,6 +12,24 @@ import org.springframework.context.annotation.Profile;
 
 @Configuration
 public class GreetingServiceConfig {
+
+    @Bean
+    PetServiceFactory petServiceFactory(){
+        return new PetServiceFactory();
+    }
+
+
+    @Profile({"dog", "default"})
+    @Bean
+    PetService dogPetService(PetServiceFactory petServiceFactory){
+        return petServiceFactory.getPetService("dog");
+    }
+
+    @Bean
+    @Profile("cat")
+    PetService catPetService(PetServiceFactory petServiceFactory){
+        return petServiceFactory.getPetService("cat");
+    }
 
     @Profile({"ES","default"})
     @Bean("i18nService")
